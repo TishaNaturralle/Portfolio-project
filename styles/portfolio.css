@@ -1,0 +1,11 @@
+/*font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+
+h1 {
+  color: red;
+  font-family: Poppins;
+}
+p {
+  font-family: Roboto;
+  font-weight: bold;
+}
