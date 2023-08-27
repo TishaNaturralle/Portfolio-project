@@ -34,6 +34,14 @@ p {
   font-size: 16px;
   line-height: 30px;
 }
+
+a:hover {
+  text-decoration: none;
+}
+.element {
+  overflow-x: hidden;
+}
+
 .hero {
   background: var(--secondary-color);
   text-align: center;
@@ -106,7 +114,7 @@ nav ul {
 nav li {
   display: inline;
   list-style: none;
-  line-height: 40px;
+  line-height: 42px;
   margin-left: 15px;
 }
 nav a {
@@ -124,7 +132,7 @@ footer {
 
 footer .contact-box {
   background: var(-- --secondary-color);
-  padding: 30px;
+  padding: 30px 120px;
   border-radius: 10px;
 }
 footer .contact-box p {
@@ -157,7 +165,7 @@ footer .social-links a:hover {
 @media (max-width: 900px) {
   h1 {
     font-size: 60px;
-    line-height: 2;
+    line-height: 1.5;
   }
   h2 {
     font-size: 44px;
@@ -173,8 +181,5 @@ footer .social-links a:hover {
   .project-description {
     padding: 0;
     text-align: center;
-  }
-  footer .contact-box {
-    padding: 30px;
   }
 }
